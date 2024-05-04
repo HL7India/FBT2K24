@@ -1,0 +1,32 @@
+{
+    "resourceType": "Organization",
+    "identifier": [
+        {
+            "value": "HSP20240428"
+        }
+    ],
+    "name": "Get Well Soon Hospital",
+    "address": [
+        {
+            "type": "physical",
+            "line": ["4403 Green Street"],
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "country": "India"
+        }
+    ],
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "080 4134 4523"
+                },
+                {
+                    "system": "email",
+                    "value": "getwellsoonhospital@example.com"
+                }
+            ]
+        }
+    ]
+}

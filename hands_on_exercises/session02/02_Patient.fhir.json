@@ -1,0 +1,50 @@
+{
+    "resourceType": "Patient",
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "MR"
+                    }
+                ]
+            },
+            "value": "MRN2404281016"
+        },
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                        "code": "DL"
+                    }
+                ]
+            },
+            "value": "KA01-58KqQLCEgW"
+        }
+    ],
+    "name": [
+        {
+            "given": ["Edward","S"],
+            "family": "Davis",
+            "use": "usual"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1964-01-30",
+    "telecom": [
+        {
+            "system": "email",
+            "value": "edwardsdavis@dayrep.com"
+        },
+        {
+            "system": "phone",
+            "value": "+91 93303 464745"
+        }
+    ],
+    "managingOrganization": {
+        "type": "Organization",
+        "reference": "Organization/21"
+    }
+}
