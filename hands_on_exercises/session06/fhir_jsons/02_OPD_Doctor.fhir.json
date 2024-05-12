@@ -1,0 +1,44 @@
+{
+    "resourceType": "Practitioner",
+    "id": "FUNghvsz3c",
+    "name": [
+      {
+        "use": "official",
+        "family": "Siddharth",
+        "given": ["Dr."]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://getwellsoonhospital.org/practitioner-id",
+        "value": "EMP-MED-01"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://getwellsoonhospital.org/qualification-codes",
+              "code": "112247003",
+              "display": "Medical Doctor"
+            }
+          ],
+          "text": "MBBS"
+        }
+      },
+      {
+        "code": {
+            "coding": [
+              {
+                "system": "http://www.getwellsoonhospital.org/qualification-codes",
+                "code": "89094005",
+                "display": "MD General Medicine"
+              }
+            ],
+            "text": "MD General Medicine"
+          }
+      }
+    ]
+  }
+  

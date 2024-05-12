@@ -1,0 +1,49 @@
+{
+    "resourceType": "Patient",
+    "id": "tFfkwItJkW",
+    "name": [
+      {
+        "use": "official",
+        "family": "Krishnagiri",
+        "given": ["Ravindranath"]
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1974-10-25",
+    "identifier": [
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v2/0203",
+              "code": "DL",
+              "display": "Driver's License Number"
+            }
+          ]
+        },
+        "value": "TN-18-ERV2SAWY5R"
+      },
+      {
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v2/0203",
+              "code": "MR",
+              "display": "Medical Record Number"
+            }
+          ]
+        },
+        "value": "GWSH-BLR-2404281842"
+      }
+    ],
+    "address": [
+      {
+        "line": ["201/5G, Indira Nagar, Phase 2", "Kathujuganapalli"],
+        "city": "Krishnagiri",
+        "state": "Tamil Nadu",
+        "postalCode": "635001",
+        "use": "home"
+      }
+    ]
+  }
+  
