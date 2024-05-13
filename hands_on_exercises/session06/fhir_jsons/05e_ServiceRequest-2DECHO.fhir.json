@@ -1,0 +1,35 @@
+{
+    "resourceType": "ServiceRequest",
+    "identifier": [
+        {
+            "system": "http://getwellsoonhospital.org/service-requests",
+            "value": "R587439-005"
+        }
+    ],
+    "requisition": {
+        "system": "http://getwellsoonhospital.org/cpoe-requests",
+        "value": "R587439"
+    },
+    "status": "active",
+    "intent": "original-order",
+    "priority": "urgent",
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "40701008",
+                "display": " Echocardiography (procedure)"
+            }
+        ],
+        "text": "2D Echo"
+    },
+    "quantityQuantity": {
+        "value": 1
+    },
+    "requester": {
+        "reference": "Practitioner/xxx"
+    },
+    "subject": {
+        "reference": "Patient/yyyy"
+    }
+}

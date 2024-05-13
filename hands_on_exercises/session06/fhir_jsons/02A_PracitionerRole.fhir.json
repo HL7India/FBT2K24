@@ -1,0 +1,16 @@
+{
+    "resourceType": "PractitionerRole",
+    "identifier": [
+        {
+            "system": "http://www.getwellsoonhospital.org/doctor-org-codes",
+            "value": "AdChAkpw12"
+        }
+    ],
+    "active": true,
+    "practitioner": {
+        "reference": "Practitioner/FUNghvsz3c"
+    },
+    "organization": {
+        "reference": "Organization/zEpyShTUbY"
+    }
+}
